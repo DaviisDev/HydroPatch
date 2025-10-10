@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=80.9"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "HydroPatch"
+version = "1.5.1"
+license = "MIT"
+authors = [
+  { name = "DaviisDev", email = "bubbalooteam@proton.me" },
+]
+keywords = ["tube search", "tube_search"]
+description = "This package will add middlewares, routers and fsm for Hydrogram."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "hydrogram",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/DaviisDev/HydroPatch/"
+"Bug Tracker" = "https://github.com/DaviisDev/HydroPatch/issues"
