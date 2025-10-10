@@ -14,7 +14,8 @@ description = "This package will add middlewares, routers and fsm for Hydrogram.
 readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [
-    "hydrogram",
+    "git+https://github.com/hydrogram/hydrogram@dev",
+    "tgcrypto"
 ]
 
 [project.urls]
