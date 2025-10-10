@@ -9,7 +9,7 @@ license = "MIT"
 authors = [
   { name = "DaviisDev", email = "bubbalooteam@proton.me" },
 ]
-keywords = ["tube search", "tube_search"]
+keywords = ["hydrokeyboard", "hydro_keyboard"]
 description = "This package will add middlewares, routers and fsm for Hydrogram."
 readme = "README.md"
 requires-python = ">=3.10"
